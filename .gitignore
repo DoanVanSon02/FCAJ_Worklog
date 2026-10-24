@@ -1,0 +1,11 @@
+# Website được Hugo tạo ra
+/Workshop-template-master/public/
+
+# Bộ nhớ đệm của Hugo
+/Workshop-template-master/resources/_gen/
+
+# File khóa khi chạy Hugo
+.hugo_build.lock
+
+# File nén dự phòng trong thư mục dự án
+/Workshop-template-master/*.zip
