@@ -47,13 +47,13 @@ BackupLab-Daily-Plan
         ↓
 Delete Backup Plan
 ```
-![Xóa tài nguyên](/images/5/5.9/0001.png?featherlight=false&width=70pc)
+![Xóa tài nguyên](/FCAJ_Worklog/images/5/5.9/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Xóa tài nguyên</b>
 </p>
 
-![Xóa tài nguyên](/images/5/5.9/0002.png?featherlight=false&width=70pc)
+![Xóa tài nguyên](/FCAJ_Worklog/images/5/5.9/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Xóa tài nguyên</b>
@@ -83,7 +83,7 @@ Sau khi xác nhận:
 ```text
 Recovery Points = 0
 ```
-![Xóa tài nguyên](/images/5/5.9/0003.png?featherlight=false&width=70pc)
+![Xóa tài nguyên](/FCAJ_Worklog/images/5/5.9/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Xóa tài nguyên</b>
@@ -94,7 +94,7 @@ tôi tiếp tục xóa:
 ```text
 BackupLab-Vault
 ```
-![Xóa tài nguyên](/images/5/5.9/0004.png?featherlight=false&width=70pc)
+![Xóa tài nguyên](/FCAJ_Worklog/images/5/5.9/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Xóa tài nguyên</b>
@@ -161,7 +161,7 @@ vì workshop đã hoàn thành và các Instance không còn cần thiết.
 
 Nếu chỉ Stop EC2, một số tài nguyên liên quan như EBS vẫn có thể tiếp tục phát sinh chi phí.
 
-![Xóa tài nguyên](/images/5/5.9/0005.png?featherlight=false&width=70pc)
+![Xóa tài nguyên](/FCAJ_Worklog/images/5/5.9/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Xóa tài nguyên</b>
@@ -196,7 +196,7 @@ tôi thực hiện xóa Volume đó.
 
 Mục tiêu là bảo đảm không còn EBS Volume của bài lab tiếp tục tồn tại và phát sinh chi phí lưu trữ.
 
-![Xóa tài nguyên](/images/5/5.9/0006.png?featherlight=false&width=70pc)
+![Xóa tài nguyên](/FCAJ_Worklog/images/5/5.9/0006.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Xóa tài nguyên</b>
@@ -230,7 +230,7 @@ Previous versions
 
 Delete markers
 ```
-![Xóa tài nguyên](/images/5/5.9/0007.png?featherlight=false&width=70pc)
+![Xóa tài nguyên](/FCAJ_Worklog/images/5/5.9/0007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Xóa tài nguyên</b>
@@ -256,7 +256,7 @@ Bucket Empty
 
 Sau khi xác nhận Bucket hoàn toàn rỗng, tôi mới thực hiện xóa S3 Bucket.
 
-![Xóa tài nguyên](/images/5/5.9/0008.png?featherlight=false&width=70pc)
+![Xóa tài nguyên](/FCAJ_Worklog/images/5/5.9/0008.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Xóa tài nguyên</b>
@@ -282,7 +282,7 @@ BackupLab-S3-BackupCompleted-Test-Alarm
 
 Sau khi xóa, CloudWatch không còn các Alarm dùng để giám sát Backup Job của bài lab.
 
-![Xóa tài nguyên](/images/5/5.9/0009.png?featherlight=false&width=70pc)
+![Xóa tài nguyên](/FCAJ_Worklog/images/5/5.9/0009.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Xóa tài nguyên</b>
@@ -298,7 +298,7 @@ IAM Role cần xóa:
 ```text
 BackupLab-EC2-S3-Role
 ```
-![Xóa tài nguyên](/images/5/5.9/0010.png?featherlight=false&width=70pc)
+![Xóa tài nguyên](/FCAJ_Worklog/images/5/5.9/0010.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Xóa tài nguyên</b>
@@ -309,7 +309,7 @@ Custom IAM Policy cần xóa:
 ```text
 BackupLab-EC2-S3-Policy
 ```
-![Xóa tài nguyên](/images/5/5.9/0011.png?featherlight=false&width=70pc)
+![Xóa tài nguyên](/FCAJ_Worklog/images/5/5.9/0011.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Xóa tài nguyên</b>

@@ -34,7 +34,7 @@ Copy đường dẫn ở "4. Connect to your instance using its Public DNS"
 
 mở Terminal kết nối SSH với EC2 và thao tác.
 
-![Kết nối EC2 bằng SSH](/images/5/5.3.2/001.png?featherlight=false&width=70pc)
+![Kết nối EC2 bằng SSH](/FCAJ_Worklog/images/5/5.3.2/001.png?featherlight=false&width=70pc)
 
 ---
 
@@ -88,7 +88,7 @@ Active: active (running)
 
 Trạng thái `active (running)` cho biết Apache HTTP Server đã được khởi động thành công và đang hoạt động trên EC2.
 
-![Apache HTTP Server hoạt động trên EC2](/images/5/5.3.2/002.png?featherlight=false&width=70pc)
+![Apache HTTP Server hoạt động trên EC2](/FCAJ_Worklog/images/5/5.3.2/002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.3.5: Apache HTTP Server hoạt động trên EC2</b>
@@ -185,7 +185,7 @@ Web Server: Apache HTTP Server
 This server will be protected using AWS Backup.
 ```
 
-![Website hoạt động thành công trên Amazon EC2](/images/5/5.3.2/003.png?featherlight=false&width=70pc)
+![Website hoạt động thành công trên Amazon EC2](/FCAJ_Worklog/images/5/5.3.2/003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.3.6: Website hoạt động thành công trên Amazon EC2</b>

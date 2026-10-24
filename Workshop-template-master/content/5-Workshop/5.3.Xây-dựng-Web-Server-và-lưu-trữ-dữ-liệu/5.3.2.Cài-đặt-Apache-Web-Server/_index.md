@@ -34,7 +34,7 @@ Copy the address under "4. Connect to your instance using its Public DNS"
 
 I then open a Terminal, connect to EC2 via SSH, and perform the operations.
 
-![Connecting to EC2 via SSH](/images/5/5.3.2/001.png?featherlight=false&width=70pc)
+![Connecting to EC2 via SSH](/FCAJ_Worklog/images/5/5.3.2/001.png?featherlight=false&width=70pc)
 
 ---
 
@@ -88,7 +88,7 @@ Active: active (running)
 
 The `active (running)` status indicates that Apache HTTP Server has started successfully and is running on EC2.
 
-![Apache HTTP Server running on EC2](/images/5/5.3.2/002.png?featherlight=false&width=70pc)
+![Apache HTTP Server running on EC2](/FCAJ_Worklog/images/5/5.3.2/002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.3.5: Apache HTTP Server running on EC2</b>
@@ -185,7 +185,7 @@ Web Server: Apache HTTP Server
 This server will be protected using AWS Backup.
 ```
 
-![Website running successfully on Amazon EC2](/images/5/5.3.2/003.png?featherlight=false&width=70pc)
+![Website running successfully on Amazon EC2](/FCAJ_Worklog/images/5/5.3.2/003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.3.6: Website running successfully on Amazon EC2</b>

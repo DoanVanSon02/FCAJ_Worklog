@@ -96,7 +96,7 @@ Do đó, 1 GiB đã đủ để kiểm thử quá trình
 
 Việc tạo volume lớn hơn không mang lại lợi ích cho bài lab nhưng lại làm tăng chi phí lưu trữ.
 
-![Tạo EBS](/images/5/5.3.3/001.png?featherlight=false&width=70pc)
+![Tạo EBS](/FCAJ_Worklog/images/5/5.3.3/001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.3.7: Tạo EBS Data Volume 1 GiB gp3</b>
@@ -203,7 +203,7 @@ là Data Volume vừa được gắn vào EC2.
 
 ---
 
-![Kiểm tra EBS trong linux](/images/5/5.3.3/003.png?featherlight=false&width=70pc)
+![Kiểm tra EBS trong linux](/FCAJ_Worklog/images/5/5.3.3/003.png?featherlight=false&width=70pc)
 
 #### Tạo filesystem
 
@@ -252,7 +252,7 @@ Kết quả cần cho thấy EBS Volume được mount tại:
 ```
 
 ---
-![Mount EBS](/images/5/5.3.3/004.png?featherlight=false&width=70pc)
+![Mount EBS](/FCAJ_Worklog/images/5/5.3.3/004.png?featherlight=false&width=70pc)
 
 #### Cấu hình tự động mount sau khi reboot
 
@@ -389,7 +389,7 @@ df -h /data
 
 để kiểm tra Data Volume và mount point.
 
-![Kiểm tra Data Volume và mount](/images/5/5.3.3/007.png?featherlight=false&width=70pc)
+![Kiểm tra Data Volume và mount](/FCAJ_Worklog/images/5/5.3.3/007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.3.8: EBS Data Volume được gắn và mount tại /data</b>
@@ -402,7 +402,7 @@ cat /data/version.txt
 cat /data/customer.txt
 cat /data/website-data/app-data.txt
 ```
-![Kiểm tra dữ liệu](/images/5/5.3.3/006.png?featherlight=false&width=70pc)
+![Kiểm tra dữ liệu](/FCAJ_Worklog/images/5/5.3.3/006.png?featherlight=false&width=70pc)
 
 
 Kết quả:

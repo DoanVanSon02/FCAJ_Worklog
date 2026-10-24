@@ -32,7 +32,7 @@ AWS Management Console
 → Select a service → S3
 ```
 
-![Creating a policy](/images/5/5.4.2/0001.png?featherlight=false&width=70pc)
+![Creating a policy](/FCAJ_Worklog/images/5/5.4.2/0001.png?featherlight=false&width=70pc)
 
 Then select:
 
@@ -85,7 +85,7 @@ The Policy is configured as follows:
 }
 ```
 
-![Creating a policy](/images/5/5.4.2/0013.png?featherlight=false&width=70pc)
+![Creating a policy](/FCAJ_Worklog/images/5/5.4.2/0013.png?featherlight=false&width=70pc)
 
 ### Explanation of the Permissions in the Policy
 
@@ -180,11 +180,11 @@ Create policy
   <b>Figure 5.4.1: Creating a Custom IAM Policy that allows EC2 to access Amazon S3</b>
 </p>
 
-![Creating a policy](/images/5/5.4.2/0003.png?featherlight=false&width=70pc)
+![Creating a policy](/FCAJ_Worklog/images/5/5.4.2/0003.png?featherlight=false&width=70pc)
 
 Check again after creation:
 
-![Creating a policy](/images/5/5.4.2/0004.png?featherlight=false&width=70pc)
+![Creating a policy](/FCAJ_Worklog/images/5/5.4.2/0004.png?featherlight=false&width=70pc)
 
 ---
 
@@ -224,7 +224,7 @@ Then select:
 Next
 ```
 
-![Creating an IAM Role for EC2](/images/5/5.4.2/0005.png?featherlight=false&width=70pc)
+![Creating an IAM Role for EC2](/FCAJ_Worklog/images/5/5.4.2/0005.png?featherlight=false&width=70pc)
 
 ---
 
@@ -295,7 +295,7 @@ AdministratorAccess
 
 because these two Policies provide a broader scope of permissions than the lab requires.
 
-![Attaching the Policy to the Role](/images/5/5.4.2/0006.png?featherlight=false&width=70pc)
+![Attaching the Policy to the Role](/FCAJ_Worklog/images/5/5.4.2/0006.png?featherlight=false&width=70pc)
 
 The Role name used:
 
@@ -316,13 +316,13 @@ Then select:
 Create role
 ```
 
-![Attaching the policy to the Role](/images/5/5.4.2/0007.png?featherlight=false&width=70pc)
+![Attaching the policy to the Role](/FCAJ_Worklog/images/5/5.4.2/0007.png?featherlight=false&width=70pc)
 
-![Attaching the policy to the Role](/images/5/5.4.2/0008.png?featherlight=false&width=70pc)
+![Attaching the policy to the Role](/FCAJ_Worklog/images/5/5.4.2/0008.png?featherlight=false&width=70pc)
 
 Check after creation is complete:
 
-![Attaching the policy to the Role](/images/5/5.4.2/0009.png?featherlight=false&width=70pc)
+![Attaching the policy to the Role](/FCAJ_Worklog/images/5/5.4.2/0009.png?featherlight=false&width=70pc)
 
 ---
 
@@ -351,7 +351,7 @@ Actions
 → Modify IAM role
 ```
 
-![Attaching the policy to the Role](/images/5/5.4.2/0010.png?featherlight=false&width=70pc)
+![Attaching the policy to the Role](/FCAJ_Worklog/images/5/5.4.2/0010.png?featherlight=false&width=70pc)
 
 Under:
 
@@ -371,7 +371,7 @@ then select:
 Update IAM role
 ```
 
-![Attaching the policy to the Role](/images/5/5.4.2/0011.png?featherlight=false&width=70pc)
+![Attaching the policy to the Role](/FCAJ_Worklog/images/5/5.4.2/0011.png?featherlight=false&width=70pc)
 
 After this step, the permissions flow becomes:
 

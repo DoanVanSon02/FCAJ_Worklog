@@ -35,7 +35,7 @@ Amazon S3
 → Bucket
 → application-data/
 ```
-![Mô phỏng sự cố trên S3](/images/5/5.7.3/0001.png?featherlight=false&width=70pc)
+![Mô phỏng sự cố trên S3](/FCAJ_Worklog/images/5/5.7.3/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Mô phỏng sự cố trên S3</b>
@@ -60,13 +60,13 @@ Sau khi hoàn thành, `s3-version.txt` không còn xuất hiện trong danh sác
 ```text
 application-data/
 ```
-![Mô phỏng sự cố trên S3](/images/5/5.7.3/0002.png?featherlight=false&width=70pc)
+![Mô phỏng sự cố trên S3](/FCAJ_Worklog/images/5/5.7.3/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Mô phỏng sự cố trên S3</b>
 </p>
 
-![Mô phỏng sự cố trên S3](/images/5/5.7.3/0003.png?featherlight=false&width=70pc)
+![Mô phỏng sự cố trên S3](/FCAJ_Worklog/images/5/5.7.3/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Mô phỏng sự cố trên S3</b>
@@ -135,7 +135,7 @@ sẽ có vẻ như đã bị xóa.
 
 Một yêu cầu đọc object thông thường cũng sẽ hoạt động như thể object không còn tồn tại.
 
-![Mô phỏng sự cố trên S3](/images/5/5.7.3/0004.png?featherlight=false&width=70pc)
+![Mô phỏng sự cố trên S3](/FCAJ_Worklog/images/5/5.7.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Mô phỏng sự cố trên S3</b>
@@ -199,7 +199,7 @@ application-data/
 └── s3-version.txt
     → Không còn hiển thị
 ```
-![Mô phỏng sự cố trên S3](/images/5/5.7.3/0005.png?featherlight=false&width=70pc)
+![Mô phỏng sự cố trên S3](/FCAJ_Worklog/images/5/5.7.3/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.7.4: s3-version.txt không còn xuất hiện sau khi mô phỏng thao tác xóa</b>
@@ -229,7 +229,7 @@ s3-version.txt
 ```
 
 Điều này cho thấy object không bị xóa vĩnh viễn khỏi toàn bộ lịch sử Versioning.
-![Mô phỏng sự cố trên S3](/images/5/5.7.3/0004.png?featherlight=false&width=70pc)
+![Mô phỏng sự cố trên S3](/FCAJ_Worklog/images/5/5.7.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.7.5: Delete Marker được tạo sau khi xóa object trong S3 Bucket đã bật Versioning</b>

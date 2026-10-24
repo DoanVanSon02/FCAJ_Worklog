@@ -53,7 +53,7 @@ Amazon S3
 
 Việc kiểm tra Service opt-in giúp bảo đảm AWS Backup có thể quản lý các loại tài nguyên được sử dụng trong bài lab.
 
-![Kiểm tra EC2 và S3](/images/5/5.5.1/0001.png?featherlight=false&width=70pc)
+![Kiểm tra EC2 và S3](/FCAJ_Worklog/images/5/5.5.1/0001.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Hình 5.5.1: Kiểm tra Amazon EC2 và Amazon S3 trong AWS Backup Service opt-in</b>
 </p>
@@ -88,7 +88,7 @@ ACLs = Disabled
 
 Việc bật Versioning không làm thay đổi chính sách bảo mật của S3 Bucket.
 
-![Kiểm tra Versioning](/images/5/5.5.1/0006.png?featherlight=false&width=70pc)
+![Kiểm tra Versioning](/FCAJ_Worklog/images/5/5.5.1/0006.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Kiểm tra Versioning = enabled</b>
 </p>
@@ -103,7 +103,7 @@ AWS Backup
 → Vaults
 → Create new vault
 ```
-![Tạo Backup Vault](/images/5/5.5.1/0002.png?featherlight=false&width=70pc)
+![Tạo Backup Vault](/FCAJ_Worklog/images/5/5.5.1/0002.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Tạo Backup Vault</b>
 </p>
@@ -123,7 +123,7 @@ Encryption key:
 ```text
 Default
 ```
-![Tạo Backup Vault](/images/5/5.5.1/0003.png?featherlight=false&width=70pc)
+![Tạo Backup Vault](/FCAJ_Worklog/images/5/5.5.1/0003.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Tạo Backup Vault</b>
 </p>
@@ -140,7 +140,7 @@ Sau khi kiểm tra cấu hình, tôi chọn:
 ```text
 Create backup vault
 ```
-![Tạo Backup Vault](/images/5/5.5.1/0004.png?featherlight=false&width=70pc)
+![Tạo Backup Vault](/FCAJ_Worklog/images/5/5.5.1/0004.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Tạo Backup Vault</b>
 </p>
@@ -226,7 +226,7 @@ Logically Air-Gapped Vault
 
 vì bài lab chỉ thực hiện Backup & Recovery cơ bản trong cùng AWS Account và Region.
 
-![Tạo Backup Vault](/images/5/5.5.1/0005.png?featherlight=false&width=70pc)
+![Tạo Backup Vault](/FCAJ_Worklog/images/5/5.5.1/0005.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Tạo Backup Vault</b>
 </p>

@@ -48,7 +48,7 @@ aws-backup-lab-s3-<unique-suffix>
 
 Do tên S3 Bucket phải duy nhất trên phạm vi toàn AWS, hậu tố thực tế có thể khác tùy theo tên còn khả dụng tại thời điểm tạo.
 
-![Tạo S3 Bucket](/images/5/5.3.4/001.png?featherlight=false&width=70pc)
+![Tạo S3 Bucket](/FCAJ_Worklog/images/5/5.3.4/001.png?featherlight=false&width=70pc)
 
 Region được sử dụng:
 
@@ -91,7 +91,7 @@ Vì vậy, bucket không được cấu hình public.
 
 Đây cũng là một biện pháp bảo mật quan trọng trong kiến trúc của workshop.
 
-![](/images/5/5.3.4/002.png?featherlight=false&width=70pc)
+![](/FCAJ_Worklog/images/5/5.3.4/002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.3.10: S3 Bucket được cấu hình chặn truy cập công khai</b>
@@ -101,7 +101,7 @@ Vì vậy, bucket không được cấu hình public.
 
 ### Bật Versioning
 
-![Versioning](/images/5/5.3.4/003.png?featherlight=false&width=70pc)
+![Versioning](/FCAJ_Worklog/images/5/5.3.4/003.png?featherlight=false&width=70pc)
 
 
 Chọn:
@@ -199,7 +199,7 @@ Nội dung của file:
 AWS Backup Recovery Lab - S3 Version 1
 ```
 
-![Kiểm tra object](/images/5/5.3.4/004.png?featherlight=false&width=70pc)
+![Kiểm tra object](/FCAJ_Worklog/images/5/5.3.4/004.png?featherlight=false&width=70pc)
 
 
 <p align="center">

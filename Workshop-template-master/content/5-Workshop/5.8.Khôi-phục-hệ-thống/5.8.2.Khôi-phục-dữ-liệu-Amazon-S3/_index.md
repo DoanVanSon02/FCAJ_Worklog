@@ -47,7 +47,7 @@ Then I select:
 Restore
 ```
 
-![Restore S3](/images/5/5.8.2/0001.png?featherlight=false&width=70pc)
+![Restore S3](/FCAJ_Worklog/images/5/5.8.2/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Restore S3</b>
@@ -134,7 +134,7 @@ s3:s3://aws-backup-lab-s3-162918102026/application-data/s3-version.txt
 
 Entering the correct S3 URI helps AWS Backup identify the exact object that needs to be restored.
 
-![Configure Item-level Restore for s3-version.txt](/images/5/5.8.2/0002.png?featherlight=false&width=70pc)
+![Configure Item-level Restore for s3-version.txt](/FCAJ_Worklog/images/5/5.8.2/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Configure Item-level Restore for s3-version.txt</b>
@@ -249,7 +249,7 @@ This configuration allows AWS Backup to reuse the encryption method or Encryptio
 
 The workshop does not require changing the encryption method, so I keep the default configuration.
 
-![Restore S3](/images/5/5.8.2/0003.png?featherlight=false&width=70pc)
+![Restore S3](/FCAJ_Worklog/images/5/5.8.2/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Restore S3</b>
@@ -305,7 +305,7 @@ AWSBackupServiceRolePolicyForRestores
 AWSBackupServiceRolePolicyForS3Restore
 ```
 
-![Restore S3](/images/5/5.8.2/0004.png?featherlight=false&width=70pc)
+![Restore S3](/FCAJ_Worklog/images/5/5.8.2/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Restore S3</b>
@@ -345,7 +345,7 @@ I only proceed to verify the data after:
 Status = COMPLETED
 ```
 
-![Amazon S3 Restore Job completed with the status COMPLETED](/images/5/5.8.2/0005.png?featherlight=false&width=70pc)
+![Amazon S3 Restore Job completed with the status COMPLETED](/FCAJ_Worklog/images/5/5.8.2/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Amazon S3 Restore Job completed with the status COMPLETED</b>

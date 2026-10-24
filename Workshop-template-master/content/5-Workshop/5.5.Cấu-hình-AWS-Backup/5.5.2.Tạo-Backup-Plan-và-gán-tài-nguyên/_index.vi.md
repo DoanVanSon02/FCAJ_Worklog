@@ -34,7 +34,7 @@ AWS Backup
 → Backup plans
 → Create backup plan
 ```
-![Tạo Backup Plan](/images/5/5.5.2/0001.png?featherlight=false&width=70pc)
+![Tạo Backup Plan](/FCAJ_Worklog/images/5/5.5.2/0001.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Tạo Backup Plan</b>
 </p>
@@ -78,22 +78,22 @@ Tôi cấu hình Backup Rule như sau:
 
 **Complete within** xác định khoảng thời gian tối đa để Backup Job hoàn thành sau khi đã bắt đầu.
 
-![Tạo Backup Plan](/images/5/5.5.2/0002.png?featherlight=false&width=70pc)
+![Tạo Backup Plan](/FCAJ_Worklog/images/5/5.5.2/0002.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Tạo Backup Plan</b>
 </p>
 
-![Tạo Backup Plan](/images/5/5.5.2/0003.png?featherlight=false&width=70pc)
+![Tạo Backup Plan](/FCAJ_Worklog/images/5/5.5.2/0003.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Tạo Backup Plan</b>
 </p>
 
-![Tạo Backup Plan](/images/5/5.5.2/0004.png?featherlight=false&width=70pc)
+![Tạo Backup Plan](/FCAJ_Worklog/images/5/5.5.2/0004.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Tạo Backup Plan</b>
 </p>
 
-![Tạo Backup Plan](/images/5/5.5.2/0005.png?featherlight=false&width=70pc)
+![Tạo Backup Plan](/FCAJ_Worklog/images/5/5.5.2/0005.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Tạo Backup Plan</b>
 </p>
@@ -273,7 +273,7 @@ AWSBackupDefaultServiceRole
 
 Role này cho phép AWS Backup thực hiện các thao tác cần thiết khi Backup và Restore tài nguyên.
 
-![Cấu hình IAM Role cho AWS Backup](/images/5/5.5.2/0006.png?featherlight=false&width=70pc)
+![Cấu hình IAM Role cho AWS Backup](/FCAJ_Worklog/images/5/5.5.2/0006.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Cấu hình IAM Role cho AWS Backup</b>
 </p>
@@ -336,7 +336,7 @@ AWSBackupServiceRolePolicyForS3Restore
 
 Vì workshop có cả Backup và Restore dữ liệu S3, tôi kiểm tra Role để bảo đảm các quyền cần thiết đã được cấu hình trước khi tiếp tục.
 
-![AWSBackupDefaultServiceRole được sử dụng bởi AWS Backup](/images/5/5.5.2/0009.png?featherlight=false&width=70pc)
+![AWSBackupDefaultServiceRole được sử dụng bởi AWS Backup](/FCAJ_Worklog/images/5/5.5.2/0009.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>AWSBackupDefaultServiceRole được sử dụng bởi AWS Backup</b>
@@ -369,7 +369,7 @@ Amazon EC2
 Amazon S3
 → aws-backup-lab-s3-162918102026
 ```
-![Gán EC2 và S3 vào BackupLab-Daily-Plan](/images/5/5.5.2/0007.png?featherlight=false&width=70pc)
+![Gán EC2 và S3 vào BackupLab-Daily-Plan](/FCAJ_Worklog/images/5/5.5.2/0007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Gán EC2 và S3 vào BackupLab-Daily-Plan</b>
@@ -438,7 +438,7 @@ Sau khi hoàn tất, tôi chọn:
 Assign resources
 ```
 
-![Gán EC2 và S3 vào BackupLab-Daily-Plan](/images/5/5.5.2/0008.png?featherlight=false&width=70pc)
+![Gán EC2 và S3 vào BackupLab-Daily-Plan](/FCAJ_Worklog/images/5/5.5.2/0008.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Gán EC2 và S3 vào BackupLab-Daily-Plan</b>

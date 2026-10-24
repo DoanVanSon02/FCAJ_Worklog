@@ -78,7 +78,7 @@ AWS Backup Recovery Lab - S3 Version 1
 
 Đây chính là trạng thái **Before Incident** mà tôi muốn lưu lại trong Recovery Point.
 
-![Trạng thái dữ liệu trước khi thực hiện Backup](/images/5/5.5.3/0001.png?featherlight=false&width=70pc)
+![Trạng thái dữ liệu trước khi thực hiện Backup](/FCAJ_Worklog/images/5/5.5.3/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Trạng thái dữ liệu trước khi thực hiện Backup</b>
@@ -94,7 +94,7 @@ Tôi truy cập:
 AWS Backup
 → Protected resources / Create on-demand backup
 ```
-![Tạo On-demand Backup cho EC2](/images/5/5.5.3/0002.png?featherlight=false&width=70pc)
+![Tạo On-demand Backup cho EC2](/FCAJ_Worklog/images/5/5.5.3/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo On-demand Backup cho EC2</b>
@@ -142,13 +142,13 @@ Sau khi kiểm tra cấu hình, tôi chọn:
 ```text
 Create on-demand backup
 ```
-![Tạo On-demand Backup cho EC2](/images/5/5.5.3/0003.png?featherlight=false&width=70pc)
+![Tạo On-demand Backup cho EC2](/FCAJ_Worklog/images/5/5.5.3/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo On-demand Backup cho EC2</b>
 </p>
 
-![Tạo On-demand Backup cho EC2](/images/5/5.5.3/0004.png?featherlight=false&width=70pc)
+![Tạo On-demand Backup cho EC2](/FCAJ_Worklog/images/5/5.5.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo On-demand Backup cho EC2</b>
@@ -183,7 +183,7 @@ Status = COMPLETED
 
 Trạng thái `COMPLETED` cho biết AWS Backup đã tạo thành công Recovery Point của EC2.
 
-![EC2 Backup Job hoàn thành với trạng thái COMPLETED](/images/5/5.5.3/0007.png?featherlight=false&width=70pc)
+![EC2 Backup Job hoàn thành với trạng thái COMPLETED](/FCAJ_Worklog/images/5/5.5.3/0007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>EC2 Backup Job hoàn thành với trạng thái COMPLETED</b>
@@ -227,13 +227,13 @@ Sau khi kiểm tra cấu hình, tôi chọn:
 ```text
 Create on-demand backup
 ```
-![Tạo On-demand Backup cho s3](/images/5/5.5.3/0005.png?featherlight=false&width=70pc)
+![Tạo On-demand Backup cho s3](/FCAJ_Worklog/images/5/5.5.3/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo On-demand Backup cho s3</b>
 </p>
 
-![Tạo On-demand Backup cho S3](/images/5/5.5.3/0004.png?featherlight=false&width=70pc)
+![Tạo On-demand Backup cho S3](/FCAJ_Worklog/images/5/5.5.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo On-demand Backup cho S3</b>
@@ -271,7 +271,7 @@ Status = COMPLETED
 
 Chỉ khi Backup Job của S3 hoàn thành, tôi mới tiếp tục sang bước kiểm tra Recovery Point.
 
-![Tạo On-demand Backup cho S3](/images/5/5.5.3/0008.png?featherlight=false&width=70pc)
+![Tạo On-demand Backup cho S3](/FCAJ_Worklog/images/5/5.5.3/0008.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo On-demand Backup cho S3</b>
@@ -298,7 +298,7 @@ Amazon S3
 
 Điều này cho thấy AWS Backup đã tạo Recovery Point tương ứng với các tài nguyên của workshop.
 
-![EC2 và S3 xuất hiện trong danh sách Protected resources](/images/5/5.5.3/0009.png?featherlight=false&width=70pc)
+![EC2 và S3 xuất hiện trong danh sách Protected resources](/FCAJ_Worklog/images/5/5.5.3/0009.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>EC2 và S3 xuất hiện trong danh sách Protected resources</b>
@@ -338,7 +338,7 @@ AWS Backup lưu và quản lý các Recovery Point này trong Backup Vault.
 
 Các Recovery Point được tạo ở bước này sẽ là nguồn dữ liệu được sử dụng khi thực hiện Restore ở phần sau.
 
-![Recovery Point của EC2 và S3 được lưu trong BackupLab-Vault](/images/5/5.5.3/0010.png?featherlight=false&width=70pc)
+![Recovery Point của EC2 và S3 được lưu trong BackupLab-Vault](/FCAJ_Worklog/images/5/5.5.3/0010.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Recovery Point của EC2 và S3 được lưu trong BackupLab-Vault</b>

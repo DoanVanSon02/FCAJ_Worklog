@@ -47,7 +47,7 @@ Sau đó chọn:
 ```text
 Restore
 ```
-![Khôi phục S3](/images/5/5.8.2/0001.png?featherlight=false&width=70pc)
+![Khôi phục S3](/FCAJ_Worklog/images/5/5.8.2/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Khôi phục S3</b>
@@ -136,7 +136,7 @@ s3:s3://aws-backup-lab-s3-162918102026/application-data/s3-version.txt
 
 Việc nhập chính xác S3 URI giúp AWS Backup xác định đúng object cần được khôi phục.
 
-![Cấu hình Item-level Restore cho s3-version.txt](/images/5/5.8.2/0002.png?featherlight=false&width=70pc)
+![Cấu hình Item-level Restore cho s3-version.txt](/FCAJ_Worklog/images/5/5.8.2/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Cấu hình Item-level Restore cho s3-version.txt</b>
@@ -249,7 +249,7 @@ Cấu hình này cho phép AWS Backup sử dụng lại phương thức hoặc E
 
 Trong workshop không có yêu cầu thay đổi phương thức mã hóa nên tôi giữ cấu hình mặc định.
 
-![Khôi phục S3](/images/5/5.8.2/0003.png?featherlight=false&width=70pc)
+![Khôi phục S3](/FCAJ_Worklog/images/5/5.8.2/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Khôi phục S3</b>
@@ -303,7 +303,7 @@ AWSBackupServiceRolePolicyForRestores
 
 AWSBackupServiceRolePolicyForS3Restore
 ```
-![Khôi phục S3](/images/5/5.8.2/0004.png?featherlight=false&width=70pc)
+![Khôi phục S3](/FCAJ_Worklog/images/5/5.8.2/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Khôi phục S3</b>
@@ -342,7 +342,7 @@ Tôi chỉ tiếp tục kiểm tra dữ liệu sau khi:
 Status = COMPLETED
 ```
 
-![Amazon S3 Restore Job hoàn thành với trạng thái COMPLETED](/images/5/5.8.2/0005.png?featherlight=false&width=70pc)
+![Amazon S3 Restore Job hoàn thành với trạng thái COMPLETED](/FCAJ_Worklog/images/5/5.8.2/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Amazon S3 Restore Job hoàn thành với trạng thái COMPLETED</b>

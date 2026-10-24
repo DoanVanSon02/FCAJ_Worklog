@@ -31,7 +31,7 @@ AWS Management Console
 → Create policy
 → Select a service → S3
 ```
-![Tạo policy](/images/5/5.4.2/0001.png?featherlight=false&width=70pc)
+![Tạo policy](/FCAJ_Worklog/images/5/5.4.2/0001.png?featherlight=false&width=70pc)
 
 Sau đó chọn:
 
@@ -83,7 +83,7 @@ Policy được cấu hình như sau:
   ]
 }
 ```
-![Tạo policy](/images/5/5.4.2/0013.png?featherlight=false&width=70pc)
+![Tạo policy](/FCAJ_Worklog/images/5/5.4.2/0013.png?featherlight=false&width=70pc)
 
 ### Giải thích các quyền trong Policy
 
@@ -178,11 +178,11 @@ Create policy
   <b>Hình 5.4.1: Tạo Custom IAM Policy cho phép EC2 truy cập Amazon S3</b>
 </p>
 
-![Tạo policy](/images/5/5.4.2/0003.png?featherlight=false&width=70pc)
+![Tạo policy](/FCAJ_Worklog/images/5/5.4.2/0003.png?featherlight=false&width=70pc)
 
 Kiểm tra lại sau khi tạo:
 
-![Tạo policy](/images/5/5.4.2/0004.png?featherlight=false&width=70pc)
+![Tạo policy](/FCAJ_Worklog/images/5/5.4.2/0004.png?featherlight=false&width=70pc)
 
 ---
 
@@ -221,7 +221,7 @@ Sau đó chọn:
 ```text
 Next
 ```
-![Tạo IAM Role cho EC2](/images/5/5.4.2/0005.png?featherlight=false&width=70pc)
+![Tạo IAM Role cho EC2](/FCAJ_Worklog/images/5/5.4.2/0005.png?featherlight=false&width=70pc)
 
 ---
 
@@ -292,7 +292,7 @@ AdministratorAccess
 
 vì hai Policy trên cung cấp phạm vi quyền lớn hơn yêu cầu của bài lab.
 
-![Gắn Policy vào Role](/images/5/5.4.2/0006.png?featherlight=false&width=70pc)
+![Gắn Policy vào Role](/FCAJ_Worklog/images/5/5.4.2/0006.png?featherlight=false&width=70pc)
 
 Tên Role được sử dụng:
 
@@ -312,13 +312,13 @@ Sau đó chọn:
 ```text
 Create role
 ```
-![Gắn policy vào Role](/images/5/5.4.2/0007.png?featherlight=false&width=70pc)
+![Gắn policy vào Role](/FCAJ_Worklog/images/5/5.4.2/0007.png?featherlight=false&width=70pc)
 
-![Gắn policy vào Role](/images/5/5.4.2/0008.png?featherlight=false&width=70pc)
+![Gắn policy vào Role](/FCAJ_Worklog/images/5/5.4.2/0008.png?featherlight=false&width=70pc)
 
 Kiểm tra sau khi đã tạo xong:
 
-![Gắn policy vào Role](/images/5/5.4.2/0009.png?featherlight=false&width=70pc)
+![Gắn policy vào Role](/FCAJ_Worklog/images/5/5.4.2/0009.png?featherlight=false&width=70pc)
 ---
 
 ### Gắn IAM Role vào EC2
@@ -345,7 +345,7 @@ Actions
 → Security
 → Modify IAM role
 ```
-![Gắn policy vào Role](/images/5/5.4.2/0010.png?featherlight=false&width=70pc)
+![Gắn policy vào Role](/FCAJ_Worklog/images/5/5.4.2/0010.png?featherlight=false&width=70pc)
 
 Tại mục:
 
@@ -364,7 +364,7 @@ sau đó chọn:
 ```text
 Update IAM role
 ```
-![Gắn policy vào Role](/images/5/5.4.2/0011.png?featherlight=false&width=70pc)
+![Gắn policy vào Role](/FCAJ_Worklog/images/5/5.4.2/0011.png?featherlight=false&width=70pc)
 
 Luồng phân quyền sau bước này trở thành:
 

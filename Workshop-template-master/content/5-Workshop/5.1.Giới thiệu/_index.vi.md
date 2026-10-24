@@ -59,7 +59,7 @@ Sau khi hoàn thành quá trình sao lưu, workshop sẽ mô phỏng một sự 
 
 ### Kiến trúc tổng quan
 
-![Kiến trúc tổng quan hệ thống Backup & Recovery trên AWS](/images/5/5.1.png?featherlight=false&width=70pc)
+![Kiến trúc tổng quan hệ thống Backup & Recovery trên AWS](/FCAJ_Worklog/images/5/5.1.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.1: Kiến trúc tổng quan hệ thống Backup & Recovery trên AWS</b>

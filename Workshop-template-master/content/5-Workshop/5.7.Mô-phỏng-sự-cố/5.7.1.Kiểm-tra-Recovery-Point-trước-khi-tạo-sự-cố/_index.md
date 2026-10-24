@@ -56,7 +56,7 @@ Only then begin creating the incident
 
 If data is modified or deleted **before a valid Recovery Point exists**, I will not have a suitable Backup to use for the Restore process.
 
-![EC2 and S3 Recovery Points Exist Before the Incident Simulation](/images/5/5.7.1/0001.png?featherlight=false&width=70pc)
+![EC2 and S3 Recovery Points Exist Before the Incident Simulation](/FCAJ_Worklog/images/5/5.7.1/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>EC2 and S3 Recovery Points Exist Before the Incident Simulation</b>

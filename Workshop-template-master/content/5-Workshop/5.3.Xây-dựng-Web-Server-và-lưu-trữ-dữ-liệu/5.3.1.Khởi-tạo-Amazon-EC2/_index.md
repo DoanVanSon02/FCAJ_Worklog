@@ -46,8 +46,8 @@ This operating system supports the `dnf` package manager, which is suitable for 
 
 ---
 
-![Naming and selecting an Amazon Machine Image for the EC2 Instance](/images/5/5.3.1/001.png?featherlight=false&width=70pc)
-![Naming and selecting an Amazon Machine Image for the EC2 Instance](/images/5/5.3.1/002.png?featherlight=false&width=70pc)
+![Naming and selecting an Amazon Machine Image for the EC2 Instance](/FCAJ_Worklog/images/5/5.3.1/001.png?featherlight=false&width=70pc)
+![Naming and selecting an Amazon Machine Image for the EC2 Instance](/FCAJ_Worklog/images/5/5.3.1/002.png?featherlight=false&width=70pc)
 
 
 <p align="center">
@@ -74,7 +74,7 @@ As discussed in the cost section, the workshop's Web Server only runs Apache and
 
 `t3.micro` meets the lab's requirements while helping limit costs.
 
-![Selecting Amazon Linux 2023 and t3.micro](/images/5/5.3.1/003.png?featherlight=false&width=70pc)
+![Selecting Amazon Linux 2023 and t3.micro](/FCAJ_Worklog/images/5/5.3.1/003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.3.2: Selecting Amazon Linux 2023 and the t3.micro Instance Type</b>
@@ -133,8 +133,8 @@ but is restricted to the administrator's IP address to reduce unnecessary access
 
 This is also a basic security measure applied in the workshop.
 
-![Configuring the Security Group for the Web Server](/images/5/5.3.1/004.png?featherlight=false&width=70pc)
-![Configuring the Security Group for the Web Server](/images/5/5.3.1/005.png?featherlight=false&width=70pc)
+![Configuring the Security Group for the Web Server](/FCAJ_Worklog/images/5/5.3.1/004.png?featherlight=false&width=70pc)
+![Configuring the Security Group for the Web Server](/FCAJ_Worklog/images/5/5.3.1/005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.3.3: Configuring the Security Group for the Web Server</b>
@@ -176,7 +176,7 @@ Status checks:
 3/3 checks passed
 ```
 
-![EC2 Web Server successfully launched](/images/5/5.3.1/007.png?featherlight=false&width=70pc)
+![EC2 Web Server successfully launched](/FCAJ_Worklog/images/5/5.3.1/007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.3.4: EC2 Web Server successfully launched</b>

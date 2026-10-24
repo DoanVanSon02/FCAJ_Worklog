@@ -48,13 +48,13 @@ BackupLab-Daily-Plan
 Delete Backup Plan
 ```
 
-![Delete resources](/images/5/5.9/0001.png?featherlight=false&width=70pc)
+![Delete resources](/FCAJ_Worklog/images/5/5.9/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Delete resources</b>
 </p>
 
-![Delete resources](/images/5/5.9/0002.png?featherlight=false&width=70pc)
+![Delete resources](/FCAJ_Worklog/images/5/5.9/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Delete resources</b>
@@ -86,7 +86,7 @@ After confirming:
 Recovery Points = 0
 ```
 
-![Delete resources](/images/5/5.9/0003.png?featherlight=false&width=70pc)
+![Delete resources](/FCAJ_Worklog/images/5/5.9/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Delete resources</b>
@@ -98,7 +98,7 @@ I proceed to delete:
 BackupLab-Vault
 ```
 
-![Delete resources](/images/5/5.9/0004.png?featherlight=false&width=70pc)
+![Delete resources](/FCAJ_Worklog/images/5/5.9/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Delete resources</b>
@@ -165,7 +165,7 @@ because the workshop is complete and the Instances are no longer needed.
 
 If EC2 is only stopped, some related resources, such as EBS, may continue to incur costs.
 
-![Delete resources](/images/5/5.9/0005.png?featherlight=false&width=70pc)
+![Delete resources](/FCAJ_Worklog/images/5/5.9/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Delete resources</b>
@@ -201,7 +201,7 @@ I delete that Volume.
 
 The goal is to ensure that no EBS Volumes from the lab remain and continue to incur storage costs.
 
-![Delete resources](/images/5/5.9/0006.png?featherlight=false&width=70pc)
+![Delete resources](/FCAJ_Worklog/images/5/5.9/0006.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Delete resources</b>
@@ -237,7 +237,7 @@ Previous versions
 Delete markers
 ```
 
-![Delete resources](/images/5/5.9/0007.png?featherlight=false&width=70pc)
+![Delete resources](/FCAJ_Worklog/images/5/5.9/0007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Delete resources</b>
@@ -263,7 +263,7 @@ Bucket Empty
 
 Only after confirming that the Bucket is completely empty do I delete the S3 Bucket.
 
-![Delete resources](/images/5/5.9/0008.png?featherlight=false&width=70pc)
+![Delete resources](/FCAJ_Worklog/images/5/5.9/0008.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Delete resources</b>
@@ -290,7 +290,7 @@ BackupLab-S3-BackupCompleted-Test-Alarm
 
 After deletion, CloudWatch no longer contains the Alarms used to monitor the lab's Backup Jobs.
 
-![Delete resources](/images/5/5.9/0009.png?featherlight=false&width=70pc)
+![Delete resources](/FCAJ_Worklog/images/5/5.9/0009.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Delete resources</b>
@@ -308,7 +308,7 @@ The IAM Role to delete:
 BackupLab-EC2-S3-Role
 ```
 
-![Delete resources](/images/5/5.9/0010.png?featherlight=false&width=70pc)
+![Delete resources](/FCAJ_Worklog/images/5/5.9/0010.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Delete resources</b>
@@ -320,7 +320,7 @@ The Custom IAM Policy to delete:
 BackupLab-EC2-S3-Policy
 ```
 
-![Delete resources](/images/5/5.9/0011.png?featherlight=false&width=70pc)
+![Delete resources](/FCAJ_Worklog/images/5/5.9/0011.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Delete resources</b>

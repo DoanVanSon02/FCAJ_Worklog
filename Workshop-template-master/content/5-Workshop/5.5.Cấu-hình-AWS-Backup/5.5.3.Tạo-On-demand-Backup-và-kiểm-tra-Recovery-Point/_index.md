@@ -78,7 +78,7 @@ AWS Backup Recovery Lab - S3 Version 1
 
 This is the **Before Incident** state that I want to save in the Recovery Point.
 
-![Data State Before Performing the Backup](/images/5/5.5.3/0001.png?featherlight=false&width=70pc)
+![Data State Before Performing the Backup](/FCAJ_Worklog/images/5/5.5.3/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Data State Before Performing the Backup</b>
@@ -95,7 +95,7 @@ AWS Backup
 → Protected resources / Create on-demand backup
 ```
 
-![Create an On-demand Backup for EC2](/images/5/5.5.3/0002.png?featherlight=false&width=70pc)
+![Create an On-demand Backup for EC2](/FCAJ_Worklog/images/5/5.5.3/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an On-demand Backup for EC2</b>
@@ -143,13 +143,13 @@ After reviewing the configuration, I select:
 Create on-demand backup
 ```
 
-![Create an On-demand Backup for EC2](/images/5/5.5.3/0003.png?featherlight=false&width=70pc)
+![Create an On-demand Backup for EC2](/FCAJ_Worklog/images/5/5.5.3/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an On-demand Backup for EC2</b>
 </p>
 
-![Create an On-demand Backup for EC2](/images/5/5.5.3/0004.png?featherlight=false&width=70pc)
+![Create an On-demand Backup for EC2](/FCAJ_Worklog/images/5/5.5.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an On-demand Backup for EC2</b>
@@ -185,7 +185,7 @@ Status = COMPLETED
 
 The `COMPLETED` status indicates that AWS Backup has successfully created the EC2 Recovery Point.
 
-![EC2 Backup Job Completed with the COMPLETED Status](/images/5/5.5.3/0007.png?featherlight=false&width=70pc)
+![EC2 Backup Job Completed with the COMPLETED Status](/FCAJ_Worklog/images/5/5.5.3/0007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>EC2 Backup Job Completed with the COMPLETED Status</b>
@@ -230,13 +230,13 @@ After reviewing the configuration, I select:
 Create on-demand backup
 ```
 
-![Create an On-demand Backup for s3](/images/5/5.5.3/0005.png?featherlight=false&width=70pc)
+![Create an On-demand Backup for s3](/FCAJ_Worklog/images/5/5.5.3/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an On-demand Backup for s3</b>
 </p>
 
-![Create an On-demand Backup for S3](/images/5/5.5.3/0004.png?featherlight=false&width=70pc)
+![Create an On-demand Backup for S3](/FCAJ_Worklog/images/5/5.5.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an On-demand Backup for S3</b>
@@ -275,7 +275,7 @@ Status = COMPLETED
 
 Only after the S3 Backup Job completes do I proceed to check the Recovery Points.
 
-![Create an On-demand Backup for S3](/images/5/5.5.3/0008.png?featherlight=false&width=70pc)
+![Create an On-demand Backup for S3](/FCAJ_Worklog/images/5/5.5.3/0008.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an On-demand Backup for S3</b>
@@ -302,7 +302,7 @@ Amazon S3
 
 This indicates that AWS Backup has created Recovery Points corresponding to the workshop resources.
 
-![EC2 and S3 Appear in the Protected Resources List](/images/5/5.5.3/0009.png?featherlight=false&width=70pc)
+![EC2 and S3 Appear in the Protected Resources List](/FCAJ_Worklog/images/5/5.5.3/0009.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>EC2 and S3 Appear in the Protected Resources List</b>
@@ -342,7 +342,7 @@ AWS Backup stores and manages these Recovery Points in the Backup Vault.
 
 The Recovery Points created in this step will be the data source used when performing Restore in a later section.
 
-![EC2 and S3 Recovery Points Stored in BackupLab-Vault](/images/5/5.5.3/0010.png?featherlight=false&width=70pc)
+![EC2 and S3 Recovery Points Stored in BackupLab-Vault](/FCAJ_Worklog/images/5/5.5.3/0010.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>EC2 and S3 Recovery Points Stored in BackupLab-Vault</b>

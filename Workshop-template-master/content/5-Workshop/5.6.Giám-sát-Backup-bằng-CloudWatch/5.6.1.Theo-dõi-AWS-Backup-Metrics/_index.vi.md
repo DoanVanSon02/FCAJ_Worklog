@@ -27,7 +27,7 @@ AWS/Backup
 
 Tại đây, CloudWatch hiển thị các metric do AWS Backup gửi sang.
 
-![Các AWS Backup Metrics của EC2 và S3 trong Amazon CloudWatch](/images/5/5.6.1/0001.png?featherlight=false&width=70pc)
+![Các AWS Backup Metrics của EC2 và S3 trong Amazon CloudWatch](/FCAJ_Worklog/images/5/5.6.1/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Các AWS Backup Metrics của EC2 và S3 trong Amazon CloudWatch</b>
@@ -106,13 +106,13 @@ S3
 
 Việc các metric xuất hiện trong CloudWatch cho thấy hoạt động của AWS Backup đã được hệ thống Monitoring ghi nhận.
 
-![Các AWS Backup Metrics của EC2 và S3 trong Amazon CloudWatch](/images/5/5.6.1/0002.png?featherlight=false&width=70pc)
+![Các AWS Backup Metrics của EC2 và S3 trong Amazon CloudWatch](/FCAJ_Worklog/images/5/5.6.1/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Các AWS Backup Metrics của EC2 và S3 trong Amazon CloudWatch</b>
 </p>
 
-![Các AWS Backup Metrics của EC2 và S3 trong Amazon CloudWatch](/images/5/5.6.1/0003.png?featherlight=false&width=70pc)
+![Các AWS Backup Metrics của EC2 và S3 trong Amazon CloudWatch](/FCAJ_Worklog/images/5/5.6.1/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Các AWS Backup Metrics của EC2 và S3 trong Amazon CloudWatch</b>

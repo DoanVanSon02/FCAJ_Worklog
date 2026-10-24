@@ -35,7 +35,7 @@ AWS Backup
 → Create backup plan
 ```
 
-![Create a Backup Plan](/images/5/5.5.2/0001.png?featherlight=false&width=70pc)
+![Create a Backup Plan](/FCAJ_Worklog/images/5/5.5.2/0001.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Create a Backup Plan</b>
 </p>
@@ -79,22 +79,22 @@ I configure the Backup Rule as follows:
 
 **Complete within** defines the maximum time allowed for the Backup Job to complete after it has started.
 
-![Create a Backup Plan](/images/5/5.5.2/0002.png?featherlight=false&width=70pc)
+![Create a Backup Plan](/FCAJ_Worklog/images/5/5.5.2/0002.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Create a Backup Plan</b>
 </p>
 
-![Create a Backup Plan](/images/5/5.5.2/0003.png?featherlight=false&width=70pc)
+![Create a Backup Plan](/FCAJ_Worklog/images/5/5.5.2/0003.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Create a Backup Plan</b>
 </p>
 
-![Create a Backup Plan](/images/5/5.5.2/0004.png?featherlight=false&width=70pc)
+![Create a Backup Plan](/FCAJ_Worklog/images/5/5.5.2/0004.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Create a Backup Plan</b>
 </p>
 
-![Create a Backup Plan](/images/5/5.5.2/0005.png?featherlight=false&width=70pc)
+![Create a Backup Plan](/FCAJ_Worklog/images/5/5.5.2/0005.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Create a Backup Plan</b>
 </p>
@@ -276,7 +276,7 @@ AWSBackupDefaultServiceRole
 
 This Role allows AWS Backup to perform the necessary operations when backing up and restoring resources.
 
-![Configure the IAM Role for AWS Backup](/images/5/5.5.2/0006.png?featherlight=false&width=70pc)
+![Configure the IAM Role for AWS Backup](/FCAJ_Worklog/images/5/5.5.2/0006.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Configure the IAM Role for AWS Backup</b>
 </p>
@@ -339,7 +339,7 @@ AWSBackupServiceRolePolicyForS3Restore
 
 Because the workshop includes both Backup and Restore of S3 data, I check the Role to ensure the necessary permissions have been configured before continuing.
 
-![AWSBackupDefaultServiceRole Used by AWS Backup](/images/5/5.5.2/0009.png?featherlight=false&width=70pc)
+![AWSBackupDefaultServiceRole Used by AWS Backup](/FCAJ_Worklog/images/5/5.5.2/0009.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>AWSBackupDefaultServiceRole Used by AWS Backup</b>
@@ -373,7 +373,7 @@ Amazon S3
 → aws-backup-lab-s3-162918102026
 ```
 
-![Assign EC2 and S3 to BackupLab-Daily-Plan](/images/5/5.5.2/0007.png?featherlight=false&width=70pc)
+![Assign EC2 and S3 to BackupLab-Daily-Plan](/FCAJ_Worklog/images/5/5.5.2/0007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Assign EC2 and S3 to BackupLab-Daily-Plan</b>
@@ -443,7 +443,7 @@ After completing the configuration, I select:
 Assign resources
 ```
 
-![Assign EC2 and S3 to BackupLab-Daily-Plan](/images/5/5.5.2/0008.png?featherlight=false&width=70pc)
+![Assign EC2 and S3 to BackupLab-Daily-Plan](/FCAJ_Worklog/images/5/5.5.2/0008.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Assign EC2 and S3 to BackupLab-Daily-Plan</b>

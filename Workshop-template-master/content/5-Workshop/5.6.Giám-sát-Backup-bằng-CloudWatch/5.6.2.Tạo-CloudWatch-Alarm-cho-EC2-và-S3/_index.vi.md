@@ -31,13 +31,13 @@ Mục tiêu của Alarm trong workshop là:
 
 ### Tạo Alarm cho Amazon EC2
 
-![Tạo Alarm cho Amazon EC2](/images/5/5.6.2/0001.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon EC2</b>
 </p>
 
-![Tạo Alarm cho Amazon EC2](/images/5/5.6.2/0002.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon EC2</b>
@@ -58,13 +58,13 @@ BackupLab-Vault
 ResourceType:
 EC2
 ```
-![Tạo Alarm cho Amazon EC2](/images/5/5.6.2/0003.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon EC2</b>
 </p>
 
-![Tạo Alarm cho Amazon EC2](/images/5/5.6.2/0004.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon EC2</b>
@@ -167,13 +167,13 @@ Backup Job thất bại
 
 Do đó, khi không có dữ liệu mới, Alarm không nên tự động xem đây là một tình trạng vi phạm điều kiện.
 
-![Tạo Alarm cho Amazon EC2](/images/5/5.6.2/0005.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon EC2</b>
 </p>
 
-![Tạo Alarm cho Amazon EC2](/images/5/5.6.2/0007.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon EC2</b>
@@ -206,7 +206,7 @@ nên tôi không cấu hình SNS Notification.
 Trong hệ thống thực tế, CloudWatch Alarm có thể được kết hợp với Amazon SNS hoặc các dịch vụ khác để gửi cảnh báo cho đội vận hành khi Backup Job gặp vấn đề.
 
 Không cấu hình thì chúng ta xóa đi rồi cuộn xuống nhấn **Next**
-![Tạo Alarm cho Amazon EC2](/images/5/5.6.2/0008.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0008.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon EC2</b>
@@ -234,13 +234,13 @@ Sau đó tôi chọn:
 Create alarm
 ```
 
-![Cấu hình CloudWatch Alarm theo dõi Backup Job của Amazon EC2](/images/5/5.6.2/0009.png?featherlight=false&width=70pc)
+![Cấu hình CloudWatch Alarm theo dõi Backup Job của Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0009.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Cấu hình CloudWatch Alarm theo dõi Backup Job của Amazon EC2</b>
 </p>
 
-![Tạo Alarm cho Amazon EC2](/images/5/5.6.2/0010.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0010.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon EC2</b>
@@ -250,13 +250,13 @@ Create alarm
 
 ### Tạo Alarm cho Amazon S3
 
-![Tạo Alarm cho Amazon S3](/images/5/5.6.2/0001.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon S3</b>
 </p>
 
-![Tạo Alarm cho Amazon S3](/images/5/5.6.2/0002.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon S3</b>
@@ -279,7 +279,7 @@ BackupLab-Vault
 ResourceType:
 S3
 ```
-![Tạo Alarm cho Amazon S3](/images/5/5.6.2/0011.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0011.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon S3</b>
@@ -300,13 +300,13 @@ Threshold:
 Datapoints:
 1 out of 1
 ```
-![Tạo Alarm cho Amazon S3](/images/5/5.6.2/0012.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0012.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon S3</b>
 </p>
 
-![Tạo Alarm cho Amazon S3](/images/5/5.6.2/0013.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0013.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon S3</b>
@@ -324,13 +324,13 @@ Description:
 Test alarm when an S3 AWS Backup job
 completes successfully.
 ```
-![Tạo Alarm cho Amazon S3](/images/5/5.6.2/0014.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0014.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon S3</b>
 </p>
 
-![Tạo Alarm cho Amazon S3](/images/5/5.6.2/0015.png?featherlight=false&width=70pc)
+![Tạo Alarm cho Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0015.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Tạo Alarm cho Amazon S3</b>
@@ -400,7 +400,7 @@ ALARM
 → Điều kiện Alarm đã được đáp ứng
 ```
 
-![Trạng thái CloudWatch Alarm sau khi đánh giá AWS Backup Metric](/images/5/5.6.2/0016.png?featherlight=false&width=70pc)
+![Trạng thái CloudWatch Alarm sau khi đánh giá AWS Backup Metric](/FCAJ_Worklog/images/5/5.6.2/0016.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Trạng thái CloudWatch Alarm sau khi đánh giá AWS Backup Metric</b>

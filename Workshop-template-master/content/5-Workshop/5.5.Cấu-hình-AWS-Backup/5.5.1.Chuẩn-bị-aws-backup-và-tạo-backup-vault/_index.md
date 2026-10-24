@@ -53,7 +53,7 @@ Amazon S3
 
 Checking Service opt-in helps ensure AWS Backup can manage the resource types used in the lab.
 
-![Check EC2 and S3](/images/5/5.5.1/0001.png?featherlight=false&width=70pc)
+![Check EC2 and S3](/FCAJ_Worklog/images/5/5.5.1/0001.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Figure 5.5.1: Check Amazon EC2 and Amazon S3 in AWS Backup Service opt-in</b>
 </p>
@@ -88,7 +88,7 @@ ACLs = Disabled
 
 Enabling Versioning does not change the S3 Bucket's security policy.
 
-![Check Versioning](/images/5/5.5.1/0006.png?featherlight=false&width=70pc)
+![Check Versioning](/FCAJ_Worklog/images/5/5.5.1/0006.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Check Versioning = enabled</b>
 </p>
@@ -105,7 +105,7 @@ AWS Backup
 → Create new vault
 ```
 
-![Create a Backup Vault](/images/5/5.5.1/0002.png?featherlight=false&width=70pc)
+![Create a Backup Vault](/FCAJ_Worklog/images/5/5.5.1/0002.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Create a Backup Vault</b>
 </p>
@@ -128,7 +128,7 @@ Encryption key:
 Default
 ```
 
-![Create a Backup Vault](/images/5/5.5.1/0003.png?featherlight=false&width=70pc)
+![Create a Backup Vault](/FCAJ_Worklog/images/5/5.5.1/0003.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Create a Backup Vault</b>
 </p>
@@ -146,7 +146,7 @@ After reviewing the configuration, I select:
 Create backup vault
 ```
 
-![Create a Backup Vault](/images/5/5.5.1/0004.png?featherlight=false&width=70pc)
+![Create a Backup Vault](/FCAJ_Worklog/images/5/5.5.1/0004.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Create a Backup Vault</b>
 </p>
@@ -233,7 +233,7 @@ Logically Air-Gapped Vault
 
 because the lab only performs basic Backup & Recovery within the same AWS Account and Region.
 
-![Create a Backup Vault](/images/5/5.5.1/0005.png?featherlight=false&width=70pc)
+![Create a Backup Vault](/FCAJ_Worklog/images/5/5.5.1/0005.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Create a Backup Vault</b>
 </p>

@@ -171,7 +171,7 @@ File deleted        → Restore ✓
 Incorrect content   → Restore ✓
 ```
 
-![Data on EBS restored to its state before the incident](/images/5/5.8.3/0001.png?featherlight=false&width=70pc)
+![Data on EBS restored to its state before the incident](/FCAJ_Worklog/images/5/5.8.3/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Data on EBS restored to its state before the incident</b>
@@ -219,7 +219,7 @@ sudo systemctl status httpd
 
 The goal is to ensure that the Web Server on the restored EC2 can operate normally.
 
-![Data on EBS restored to its state before the incident](/images/5/5.8.3/0002.png?featherlight=false&width=70pc)
+![Data on EBS restored to its state before the incident](/FCAJ_Worklog/images/5/5.8.3/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Data on EBS restored to its state before the incident</b>
@@ -275,13 +275,13 @@ AWS Backup & Recovery Lab
 Web Server is running successfully.
 ```
 
-![Compare the website on the affected EC2 with the restored EC2](/images/5/5.8.3/0003.png?featherlight=false&width=70pc)
+![Compare the website on the affected EC2 with the restored EC2](/FCAJ_Worklog/images/5/5.8.3/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Compare the website on the affected EC2 with the restored EC2</b>
 </p>
 
-![Compare the website on the affected EC2 with the restored EC2](/images/5/5.8.3/0004.png?featherlight=false&width=70pc)
+![Compare the website on the affected EC2 with the restored EC2](/FCAJ_Worklog/images/5/5.8.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Compare the website on the affected EC2 with the restored EC2</b>
@@ -333,13 +333,13 @@ AWS BACKUP RESTORE
 s3-version.txt reappears ✓
 ```
 
-![s3-version.txt reappears after Restore](/images/5/5.8.3/0005.png?featherlight=false&width=70pc)
+![s3-version.txt reappears after Restore](/FCAJ_Worklog/images/5/5.8.3/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>s3-version.txt reappears after Restore</b>
 </p>
 
-![Contents of s3-version.txt restored to Version 1](/images/5/5.8.3/0006.png?featherlight=false&width=70pc)
+![Contents of s3-version.txt restored to Version 1](/FCAJ_Worklog/images/5/5.8.3/0006.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Contents of s3-version.txt restored to Version 1</b>
@@ -367,7 +367,7 @@ S3 Restore Job
 Status = COMPLETED
 ```
 
-![EC2 and S3 Restore Jobs completed successfully](/images/5/5.8.3/0007.png?featherlight=false&width=70pc)
+![EC2 and S3 Restore Jobs completed successfully](/FCAJ_Worklog/images/5/5.8.3/0007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>EC2 and S3 Restore Jobs completed successfully</b>

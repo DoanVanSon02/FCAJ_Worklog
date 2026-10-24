@@ -48,7 +48,7 @@ aws-backup-lab-s3-<unique-suffix>
 
 Since S3 Bucket names must be unique across AWS, the actual suffix may vary depending on which names are available at the time of creation.
 
-![Creating an S3 Bucket](/images/5/5.3.4/001.png?featherlight=false&width=70pc)
+![Creating an S3 Bucket](/FCAJ_Worklog/images/5/5.3.4/001.png?featherlight=false&width=70pc)
 
 The Region used:
 
@@ -91,7 +91,7 @@ Therefore, the bucket is not configured for public access.
 
 This is also an important security measure in the workshop architecture.
 
-![](/images/5/5.3.4/002.png?featherlight=false&width=70pc)
+![](/FCAJ_Worklog/images/5/5.3.4/002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.3.10: S3 Bucket configured to block public access</b>
@@ -101,7 +101,7 @@ This is also an important security measure in the workshop architecture.
 
 ### Enabling Versioning
 
-![Versioning](/images/5/5.3.4/003.png?featherlight=false&width=70pc)
+![Versioning](/FCAJ_Worklog/images/5/5.3.4/003.png?featherlight=false&width=70pc)
 
 
 Select:
@@ -199,7 +199,7 @@ The file content:
 AWS Backup Recovery Lab - S3 Version 1
 ```
 
-![Checking the object](/images/5/5.3.4/004.png?featherlight=false&width=70pc)
+![Checking the object](/FCAJ_Worklog/images/5/5.3.4/004.png?featherlight=false&width=70pc)
 
 
 <p align="center">

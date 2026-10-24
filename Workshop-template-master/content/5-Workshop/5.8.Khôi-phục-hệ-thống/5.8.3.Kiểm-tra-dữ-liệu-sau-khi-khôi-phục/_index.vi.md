@@ -170,7 +170,7 @@ File bị xóa          → Restore ✓
 
 Nội dung bị sai      → Restore ✓
 ```
-![Dữ liệu trên EBS được khôi phục về trạng thái trước sự cố](/images/5/5.8.3/0001.png?featherlight=false&width=70pc)
+![Dữ liệu trên EBS được khôi phục về trạng thái trước sự cố](/FCAJ_Worklog/images/5/5.8.3/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Dữ liệu trên EBS được khôi phục về trạng thái trước sự cố</b>
@@ -218,7 +218,7 @@ sudo systemctl status httpd
 
 Mục tiêu là bảo đảm Web Server trên EC2 được Restore có thể hoạt động bình thường.
 
-![Dữ liệu trên EBS được khôi phục về trạng thái trước sự cố](/images/5/5.8.3/0002.png?featherlight=false&width=70pc)
+![Dữ liệu trên EBS được khôi phục về trạng thái trước sự cố](/FCAJ_Worklog/images/5/5.8.3/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Dữ liệu trên EBS được khôi phục về trạng thái trước sự cố</b>
@@ -273,13 +273,13 @@ AWS Backup & Recovery Lab
 Web Server is running successfully.
 ```
 
-![So sánh website EC2 gặp sự cố và EC2 được khôi phục](/images/5/5.8.3/0003.png?featherlight=false&width=70pc)
+![So sánh website EC2 gặp sự cố và EC2 được khôi phục](/FCAJ_Worklog/images/5/5.8.3/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>So sánh website EC2 gặp sự cố và EC2 được khôi phục</b>
 </p>
 
-![So sánh website EC2 gặp sự cố và EC2 được khôi phục](/images/5/5.8.3/0004.png?featherlight=false&width=70pc)
+![So sánh website EC2 gặp sự cố và EC2 được khôi phục](/FCAJ_Worklog/images/5/5.8.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>So sánh website EC2 gặp sự cố và EC2 được khôi phục</b>
@@ -331,13 +331,13 @@ AWS BACKUP RESTORE
 s3-version.txt xuất hiện lại ✓
 ```
 
-![s3-version.txt xuất hiện trở lại sau khi Restore](/images/5/5.8.3/0005.png?featherlight=false&width=70pc)
+![s3-version.txt xuất hiện trở lại sau khi Restore](/FCAJ_Worklog/images/5/5.8.3/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>s3-version.txt xuất hiện trở lại sau khi Restore</b>
 </p>
 
-![ Nội dung s3-version.txt được khôi phục về Version 1](/images/5/5.8.3/0006.png?featherlight=false&width=70pc)
+![ Nội dung s3-version.txt được khôi phục về Version 1](/FCAJ_Worklog/images/5/5.8.3/0006.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Nội dung s3-version.txt được khôi phục về Version 1</b>
@@ -365,7 +365,7 @@ S3 Restore Job
 Status = COMPLETED
 ```
 
-![Các Restore Job của EC2 và S3 hoàn thành thành công](/images/5/5.8.3/0007.png?featherlight=false&width=70pc)
+![Các Restore Job của EC2 và S3 hoàn thành thành công](/FCAJ_Worklog/images/5/5.8.3/0007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Các Restore Job của EC2 và S3 hoàn thành thành công</b>

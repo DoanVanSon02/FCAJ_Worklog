@@ -56,7 +56,7 @@ Mới bắt đầu tạo sự cố
 
 Nếu dữ liệu bị thay đổi hoặc xóa **trước khi có một Recovery Point hợp lệ**, tôi sẽ không có bản Backup phù hợp để sử dụng cho quá trình Restore.
 
-![Recovery Point của EC2 và S3 tồn tại trước khi mô phỏng sự cố](/images/5/5.7.1/0001.png?featherlight=false&width=70pc)
+![Recovery Point của EC2 và S3 tồn tại trước khi mô phỏng sự cố](/FCAJ_Worklog/images/5/5.7.1/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Recovery Point của EC2 và S3 tồn tại trước khi mô phỏng sự cố</b>

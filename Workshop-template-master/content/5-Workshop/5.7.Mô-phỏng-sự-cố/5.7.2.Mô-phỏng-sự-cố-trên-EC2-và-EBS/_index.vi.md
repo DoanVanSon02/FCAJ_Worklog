@@ -220,7 +220,7 @@ app-data.txt
 
 Việc tạo ba dạng sự cố khác nhau giúp quá trình Restore sau này kiểm tra được nhiều tình huống hơn thay vì chỉ một loại lỗi duy nhất.
 
-![Mô phỏng sự cố trên EBS](/images/5/5.7.2/0002.png?featherlight=false&width=70pc)
+![Mô phỏng sự cố trên EBS](/FCAJ_Worklog/images/5/5.7.2/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Mô phỏng sự cố trên EBS</b>
@@ -284,7 +284,7 @@ EC2 hiện tại
 EC2 được Restore sau này
 → AWS Backup & Recovery Lab
 ```
-![Mô phỏng sự cố trên EBS](/images/5/5.7.2/0003.png?featherlight=false&width=70pc)
+![Mô phỏng sự cố trên EBS](/FCAJ_Worklog/images/5/5.7.2/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Mô phỏng sự cố trên EBS</b>

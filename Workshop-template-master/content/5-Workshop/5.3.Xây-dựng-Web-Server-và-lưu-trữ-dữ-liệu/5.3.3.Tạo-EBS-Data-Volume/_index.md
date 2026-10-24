@@ -97,7 +97,7 @@ Therefore, 1 GiB is sufficient to test the process
 
 Creating a larger volume does not benefit the lab but increases storage costs.
 
-![Creating EBS](/images/5/5.3.3/001.png?featherlight=false&width=70pc)
+![Creating EBS](/FCAJ_Worklog/images/5/5.3.3/001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.3.7: Creating a 1 GiB gp3 EBS Data Volume</b>
@@ -204,7 +204,7 @@ is the Data Volume that has just been attached to EC2.
 
 ---
 
-![Checking EBS on Linux](/images/5/5.3.3/003.png?featherlight=false&width=70pc)
+![Checking EBS on Linux](/FCAJ_Worklog/images/5/5.3.3/003.png?featherlight=false&width=70pc)
 
 #### Creating a Filesystem
 
@@ -254,7 +254,7 @@ The result should show that the EBS Volume is mounted at:
 
 ---
 
-![Mounting EBS](/images/5/5.3.3/004.png?featherlight=false&width=70pc)
+![Mounting EBS](/FCAJ_Worklog/images/5/5.3.3/004.png?featherlight=false&width=70pc)
 
 #### Configuring Automatic Mounting After a Reboot
 
@@ -391,7 +391,7 @@ df -h /data
 
 to check the Data Volume and mount point.
 
-![Checking the Data Volume and mount](/images/5/5.3.3/007.png?featherlight=false&width=70pc)
+![Checking the Data Volume and mount](/FCAJ_Worklog/images/5/5.3.3/007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.3.8: EBS Data Volume attached and mounted at /data</b>
@@ -405,7 +405,7 @@ cat /data/customer.txt
 cat /data/website-data/app-data.txt
 ```
 
-![Checking the data](/images/5/5.3.3/006.png?featherlight=false&width=70pc)
+![Checking the data](/FCAJ_Worklog/images/5/5.3.3/006.png?featherlight=false&width=70pc)
 
 
 Result:

@@ -38,7 +38,7 @@ First, I check AWS CLI:
 aws --version
 ```
 
-![Checking the AWS CLI version](/images/5/5.4.3/0001.png?featherlight=false&width=70pc)
+![Checking the AWS CLI version](/FCAJ_Worklog/images/5/5.4.3/0001.png?featherlight=false&width=70pc)
 
 Amazon Linux 2023 usually already includes AWS CLI. If it is not installed, AWS CLI must be installed before proceeding
 ([See the instructions](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)).
@@ -67,7 +67,7 @@ assumed-role/BackupLab-EC2-S3-Role
 
 This proves that EC2 is using the newly created IAM Role.
 
-![Checking the AWS CLI version](/images/5/5.4.3/0002.png?featherlight=false&width=70pc)
+![Checking the AWS CLI version](/FCAJ_Worklog/images/5/5.4.3/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.4.5: EC2 using BackupLab-EC2-S3-Role</b>
@@ -192,7 +192,7 @@ ec2-version.txt
 
 has been created.
 
-![Verifying that EC2 lists, reads, and uploads data to S3 through an IAM Role](/images/5/5.4.3/0003.png?featherlight=false&width=70pc)
+![Verifying that EC2 lists, reads, and uploads data to S3 through an IAM Role](/FCAJ_Worklog/images/5/5.4.3/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.4.6: EC2 reading and uploading data to Amazon S3 through an IAM Role</b>
@@ -248,7 +248,7 @@ DeleteObject      → Denied   ✓
 
 This proves that the IAM Policy does not grant permissions beyond the functions that EC2 actually needs.
 
-![Testing DeleteObject](/images/5/5.4.3/0004.png?featherlight=false&width=70pc)
+![Testing DeleteObject](/FCAJ_Worklog/images/5/5.4.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.4.7: Testing Least Privilege – EC2 does not have permission to delete objects on S3</b>

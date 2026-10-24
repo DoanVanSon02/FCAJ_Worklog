@@ -26,7 +26,7 @@ US East (N. Virginia)
 us-east-1
 ```
 
-![Selecting the US East (N. Virginia) Region](/images/5/5.2.2.png?featherlight=false&width=70pc)
+![Selecting the US East (N. Virginia) Region](/FCAJ_Worklog/images/5/5.2.2.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.2.1: Selecting the US East (N. Virginia) Region – us-east-1</b>

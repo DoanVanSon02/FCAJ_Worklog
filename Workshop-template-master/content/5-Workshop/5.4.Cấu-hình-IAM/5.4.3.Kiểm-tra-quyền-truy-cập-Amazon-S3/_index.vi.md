@@ -37,7 +37,7 @@ Trước tiên, tôi kiểm tra AWS CLI:
 ```bash
 aws --version
 ```
-![Kiểm tra version AWS CLI](/images/5/5.4.3/0001.png?featherlight=false&width=70pc)
+![Kiểm tra version AWS CLI](/FCAJ_Worklog/images/5/5.4.3/0001.png?featherlight=false&width=70pc)
 
 Amazon Linux 2023 thường đã có AWS CLI. Nếu chưa có, cần cài đặt AWS CLI trước khi tiếp tục
 ([Xem hướng dẫn](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)).
@@ -66,7 +66,7 @@ assumed-role/BackupLab-EC2-S3-Role
 
 Điều này chứng minh EC2 đang sử dụng IAM Role vừa tạo.
 
-![Kiểm tra version AWS CLI](/images/5/5.4.3/0002.png?featherlight=false&width=70pc)
+![Kiểm tra version AWS CLI](/FCAJ_Worklog/images/5/5.4.3/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.4.5: EC2 sử dụng BackupLab-EC2-S3-Role</b>
@@ -191,7 +191,7 @@ ec2-version.txt
 
 đã được tạo.
 
-![Kiểm tra EC2 liệt kê, đọc và upload dữ liệu lên S3 thông qua IAM Role](/images/5/5.4.3/0003.png?featherlight=false&width=70pc)
+![Kiểm tra EC2 liệt kê, đọc và upload dữ liệu lên S3 thông qua IAM Role](/FCAJ_Worklog/images/5/5.4.3/0003.png?featherlight=false&width=70pc)
 <p align="center">
   <b>Hình 5.4.6: EC2 đọc và upload dữ liệu lên Amazon S3 thông qua IAM Role</b>
 </p>
@@ -246,7 +246,7 @@ DeleteObject      → Denied   ✓
 
 Điều này chứng minh IAM Policy không cấp quyền vượt quá chức năng mà EC2 thực sự cần.
 
-![Kiểm tra DeleteObject](/images/5/5.4.3/0004.png?featherlight=false&width=70pc)
+![Kiểm tra DeleteObject](/FCAJ_Worklog/images/5/5.4.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.4.7: Kiểm thử Least Privilege – EC2 không có quyền xóa object trên S3</b>

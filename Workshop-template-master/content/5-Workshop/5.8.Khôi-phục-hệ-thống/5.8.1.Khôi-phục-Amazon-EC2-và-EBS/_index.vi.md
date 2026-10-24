@@ -54,7 +54,7 @@ customer.txt
 app-data.txt
 → Important website data
 ```
-![Khôi phục EC2](/images/5/5.8.1/0001.png?featherlight=false&width=70pc)
+![Khôi phục EC2](/FCAJ_Worklog/images/5/5.8.1/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>[Khôi phục EC2</b>
@@ -129,7 +129,7 @@ Security Group
 
 Tôi kiểm tra lại các thông tin này trước khi bắt đầu Restore để bảo đảm EC2 mới được tạo trong đúng môi trường của workshop.
 
-![Cấu hình Restore Amazon EC2 từ Recovery Point](/images/5/5.8.1/0002.png?featherlight=false&width=70pc)
+![Cấu hình Restore Amazon EC2 từ Recovery Point](/FCAJ_Worklog/images/5/5.8.1/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Cấu hình Restore Amazon EC2 từ Recovery Point</b>
@@ -181,7 +181,7 @@ Default
 
 Đây là IAM Role được AWS Backup sử dụng để thực hiện các thao tác Restore.
 
-![Cấu hình Restore Amazon EC2 từ Recovery Point](/images/5/5.8.1/0003.png?featherlight=false&width=70pc)
+![Cấu hình Restore Amazon EC2 từ Recovery Point](/FCAJ_Worklog/images/5/5.8.1/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Cấu hình Restore Amazon EC2 từ Recovery Point</b>
@@ -225,7 +225,7 @@ Status = COMPLETED
 
 Điều này cho biết AWS Backup đã hoàn thành quá trình tạo lại tài nguyên từ Recovery Point.
 
-![EC2 Restore Job hoàn thành với trạng thái COMPLETED](/images/5/5.8.1/0004.png?featherlight=false&width=70pc)
+![EC2 Restore Job hoàn thành với trạng thái COMPLETED](/FCAJ_Worklog/images/5/5.8.1/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>EC2 Restore Job hoàn thành với trạng thái COMPLETED</b>
@@ -273,7 +273,7 @@ Status checks:
 3/3 checks passed
 ```
 
-![EC2 gốc và EC2 được khôi phục tồn tại đồng thời](/images/5/5.8.1/0005.png?featherlight=false&width=70pc)
+![EC2 gốc và EC2 được khôi phục tồn tại đồng thời](/FCAJ_Worklog/images/5/5.8.1/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>EC2 gốc và EC2 được khôi phục tồn tại đồng thời</b>

@@ -54,7 +54,7 @@ customer.txt
 app-data.txt
 → Important website data
 ```
-![Restoring EC2](/images/5/5.8.1/0001.png?featherlight=false&width=70pc)
+![Restoring EC2](/FCAJ_Worklog/images/5/5.8.1/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>[Restoring EC2]</b>
@@ -129,7 +129,7 @@ Security Group
 
 I double-check this information before starting the Restore to ensure the new EC2 is created in the correct workshop environment.
 
-![Amazon EC2 Restore Configuration from Recovery Point](/images/5/5.8.1/0002.png?featherlight=false&width=70pc)
+![Amazon EC2 Restore Configuration from Recovery Point](/FCAJ_Worklog/images/5/5.8.1/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Amazon EC2 Restore Configuration from Recovery Point</b>
@@ -181,7 +181,7 @@ Default
 
 This is the IAM Role used by AWS Backup to perform Restore operations.
 
-![Amazon EC2 Restore Configuration from Recovery Point](/images/5/5.8.1/0003.png?featherlight=false&width=70pc)
+![Amazon EC2 Restore Configuration from Recovery Point](/FCAJ_Worklog/images/5/5.8.1/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Amazon EC2 Restore Configuration from Recovery Point</b>
@@ -225,7 +225,7 @@ Status = COMPLETED
 
 This indicates that AWS Backup has completed the process of recreating resources from the Recovery Point.
 
-![EC2 Restore Job completed with COMPLETED status](/images/5/5.8.1/0004.png?featherlight=false&width=70pc)
+![EC2 Restore Job completed with COMPLETED status](/FCAJ_Worklog/images/5/5.8.1/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>EC2 Restore Job completed with COMPLETED status</b>
@@ -273,7 +273,7 @@ Status checks:
 3/3 checks passed
 ```
 
-![Original EC2 and Restored EC2 coexist](/images/5/5.8.1/0005.png?featherlight=false&width=70pc)
+![Original EC2 and Restored EC2 coexist](/FCAJ_Worklog/images/5/5.8.1/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Original EC2 and Restored EC2 coexist</b>

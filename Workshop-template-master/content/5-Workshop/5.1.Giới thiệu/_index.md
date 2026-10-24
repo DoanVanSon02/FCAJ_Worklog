@@ -58,7 +58,7 @@ After the backup process is completed, the workshop will simulate an incident by
 
 ### Architecture overview
 
-![Architecture overview of the Backup & Recovery system on AWS](/images/5/5.1.png?featherlight=false&width=70pc)
+![Architecture overview of the Backup & Recovery system on AWS](/FCAJ_Worklog/images/5/5.1.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.1: Architecture overview of the Backup & Recovery system on AWS</b>

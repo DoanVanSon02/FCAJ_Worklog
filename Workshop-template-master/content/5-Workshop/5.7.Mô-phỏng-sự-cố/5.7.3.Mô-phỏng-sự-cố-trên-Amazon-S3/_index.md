@@ -36,7 +36,7 @@ Amazon S3
 → application-data/
 ```
 
-![Simulate an Incident on S3](/images/5/5.7.3/0001.png?featherlight=false&width=70pc)
+![Simulate an Incident on S3](/FCAJ_Worklog/images/5/5.7.3/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Simulate an Incident on S3</b>
@@ -62,13 +62,13 @@ After completion, `s3-version.txt` no longer appears in the current object listi
 application-data/
 ```
 
-![Simulate an Incident on S3](/images/5/5.7.3/0002.png?featherlight=false&width=70pc)
+![Simulate an Incident on S3](/FCAJ_Worklog/images/5/5.7.3/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Simulate an Incident on S3</b>
 </p>
 
-![Simulate an Incident on S3](/images/5/5.7.3/0003.png?featherlight=false&width=70pc)
+![Simulate an Incident on S3](/FCAJ_Worklog/images/5/5.7.3/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Simulate an Incident on S3</b>
@@ -137,7 +137,7 @@ will appear to have been deleted.
 
 A normal request to read the object will also behave as if the object no longer exists.
 
-![Simulate an Incident on S3](/images/5/5.7.3/0004.png?featherlight=false&width=70pc)
+![Simulate an Incident on S3](/FCAJ_Worklog/images/5/5.7.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Simulate an Incident on S3</b>
@@ -203,7 +203,7 @@ application-data/
     → No longer visible
 ```
 
-![Simulate an Incident on S3](/images/5/5.7.3/0005.png?featherlight=false&width=70pc)
+![Simulate an Incident on S3](/FCAJ_Worklog/images/5/5.7.3/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.7.4: s3-version.txt No Longer Appears After Simulating the Delete Operation</b>
@@ -234,7 +234,7 @@ s3-version.txt
 
 This shows that the object has not been permanently deleted from the entire Versioning history.
 
-![Simulate an Incident on S3](/images/5/5.7.3/0004.png?featherlight=false&width=70pc)
+![Simulate an Incident on S3](/FCAJ_Worklog/images/5/5.7.3/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Figure 5.7.5: A Delete Marker Is Created After Deleting an Object in an S3 Bucket with Versioning Enabled</b>

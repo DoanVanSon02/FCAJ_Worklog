@@ -31,13 +31,13 @@ The purpose of the Alarms in the workshop is:
 
 ### Create an Alarm for Amazon EC2
 
-![Create an Alarm for Amazon EC2](/images/5/5.6.2/0001.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon EC2</b>
 </p>
 
-![Create an Alarm for Amazon EC2](/images/5/5.6.2/0002.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon EC2</b>
@@ -59,13 +59,13 @@ ResourceType:
 EC2
 ```
 
-![Create an Alarm for Amazon EC2](/images/5/5.6.2/0003.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon EC2</b>
 </p>
 
-![Create an Alarm for Amazon EC2](/images/5/5.6.2/0004.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0004.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon EC2</b>
@@ -168,13 +168,13 @@ Backup Job failure
 
 Therefore, when there is no new data, the Alarm should not automatically treat this as a condition breach.
 
-![Create an Alarm for Amazon EC2](/images/5/5.6.2/0005.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon EC2</b>
 </p>
 
-![Create an Alarm for Amazon EC2](/images/5/5.6.2/0007.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon EC2</b>
@@ -208,7 +208,7 @@ In a real-world system, CloudWatch Alarms can be integrated with Amazon SNS or o
 
 Since we are not configuring notifications, remove the notification configuration, then scroll down and click **Next**.
 
-![Create an Alarm for Amazon EC2](/images/5/5.6.2/0008.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0008.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon EC2</b>
@@ -237,13 +237,13 @@ Then I select:
 Create alarm
 ```
 
-![Configure a CloudWatch Alarm to Monitor Amazon EC2 Backup Jobs](/images/5/5.6.2/0009.png?featherlight=false&width=70pc)
+![Configure a CloudWatch Alarm to Monitor Amazon EC2 Backup Jobs](/FCAJ_Worklog/images/5/5.6.2/0009.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Configure a CloudWatch Alarm to Monitor Amazon EC2 Backup Jobs</b>
 </p>
 
-![Create an Alarm for Amazon EC2](/images/5/5.6.2/0010.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon EC2](/FCAJ_Worklog/images/5/5.6.2/0010.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon EC2</b>
@@ -253,13 +253,13 @@ Create alarm
 
 ### Create an Alarm for Amazon S3
 
-![Create an Alarm for Amazon S3](/images/5/5.6.2/0001.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0001.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon S3</b>
 </p>
 
-![Create an Alarm for Amazon S3](/images/5/5.6.2/0002.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon S3</b>
@@ -283,7 +283,7 @@ ResourceType:
 S3
 ```
 
-![Create an Alarm for Amazon S3](/images/5/5.6.2/0011.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0011.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon S3</b>
@@ -305,13 +305,13 @@ Datapoints:
 1 out of 1
 ```
 
-![Create an Alarm for Amazon S3](/images/5/5.6.2/0012.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0012.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon S3</b>
 </p>
 
-![Create an Alarm for Amazon S3](/images/5/5.6.2/0013.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0013.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon S3</b>
@@ -330,13 +330,13 @@ Test alarm when an S3 AWS Backup job
 completes successfully.
 ```
 
-![Create an Alarm for Amazon S3](/images/5/5.6.2/0014.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0014.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon S3</b>
 </p>
 
-![Create an Alarm for Amazon S3](/images/5/5.6.2/0015.png?featherlight=false&width=70pc)
+![Create an Alarm for Amazon S3](/FCAJ_Worklog/images/5/5.6.2/0015.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Create an Alarm for Amazon S3</b>
@@ -406,7 +406,7 @@ ALARM
 → The Alarm condition has been met
 ```
 
-![CloudWatch Alarm State After Evaluating the AWS Backup Metric](/images/5/5.6.2/0016.png?featherlight=false&width=70pc)
+![CloudWatch Alarm State After Evaluating the AWS Backup Metric](/FCAJ_Worklog/images/5/5.6.2/0016.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>CloudWatch Alarm State After Evaluating the AWS Backup Metric</b>

@@ -220,7 +220,7 @@ app-data.txt
 
 Creating three different types of incidents allows the subsequent Restore process to test more scenarios instead of just a single type of error.
 
-![Simulate Incidents on EBS](/images/5/5.7.2/0002.png?featherlight=false&width=70pc)
+![Simulate Incidents on EBS](/FCAJ_Worklog/images/5/5.7.2/0002.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Simulate Incidents on EBS</b>
@@ -286,7 +286,7 @@ EC2 instance restored later
 → AWS Backup & Recovery Lab
 ```
 
-![Simulate Incidents on EBS](/images/5/5.7.2/0003.png?featherlight=false&width=70pc)
+![Simulate Incidents on EBS](/FCAJ_Worklog/images/5/5.7.2/0003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Simulate Incidents on EBS</b>

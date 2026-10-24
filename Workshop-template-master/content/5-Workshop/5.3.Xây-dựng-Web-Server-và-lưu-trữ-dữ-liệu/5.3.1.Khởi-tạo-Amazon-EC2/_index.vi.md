@@ -46,8 +46,8 @@ Hệ điều hành này hỗ trợ trình quản lý gói `dnf`, phù hợp vớ
 
 ---
 
-![Đặt tên và chọn Amazon Machine Image cho EC2 Instance](/images/5/5.3.1/001.png?featherlight=false&width=70pc)
-![Đặt tên và chọn Amazon Machine Image cho EC2 Instance](/images/5/5.3.1/002.png?featherlight=false&width=70pc)
+![Đặt tên và chọn Amazon Machine Image cho EC2 Instance](/FCAJ_Worklog/images/5/5.3.1/001.png?featherlight=false&width=70pc)
+![Đặt tên và chọn Amazon Machine Image cho EC2 Instance](/FCAJ_Worklog/images/5/5.3.1/002.png?featherlight=false&width=70pc)
 
 
 <p align="center">
@@ -74,7 +74,7 @@ Như đã phân tích ở phần chi phí, Web Server của workshop chỉ chạ
 
 `t3.micro` đáp ứng đủ nhu cầu của bài lab đồng thời giúp hạn chế chi phí.
 
-![Lựa chọn Amazon Linux 2023 và t3.micro](/images/5/5.3.1/003.png?featherlight=false&width=70pc)
+![Lựa chọn Amazon Linux 2023 và t3.micro](/FCAJ_Worklog/images/5/5.3.1/003.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.3.2: Lựa chọn Amazon Linux 2023 và Instance Type t3.micro</b>
@@ -133,8 +133,8 @@ mà chỉ giới hạn theo địa chỉ IP quản trị nhằm giảm phạm vi
 
 Đây cũng là một biện pháp bảo mật cơ bản được áp dụng trong workshop.
 
-![Cấu hình Security Group cho Web Server](/images/5/5.3.1/004.png?featherlight=false&width=70pc)
-![Cấu hình Security Group cho Web Server](/images/5/5.3.1/005.png?featherlight=false&width=70pc)
+![Cấu hình Security Group cho Web Server](/FCAJ_Worklog/images/5/5.3.1/004.png?featherlight=false&width=70pc)
+![Cấu hình Security Group cho Web Server](/FCAJ_Worklog/images/5/5.3.1/005.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.3.3: Cấu hình Security Group cho Web Server</b>
@@ -176,7 +176,7 @@ Status checks:
 3/3 checks passed
 ```
 
-![EC2 Web Server được khởi tạo thành công](/images/5/5.3.1/007.png?featherlight=false&width=70pc)
+![EC2 Web Server được khởi tạo thành công](/FCAJ_Worklog/images/5/5.3.1/007.png?featherlight=false&width=70pc)
 
 <p align="center">
   <b>Hình 5.3.4: EC2 Web Server được khởi tạo thành công</b>
