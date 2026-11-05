@@ -5,7 +5,7 @@ weight : 1
 chapter : false
 pre : " <b> 3.1 </b> "
 ---
-# 🚀 Amazon S3 Tables hỗ trợ chuyển đổi Apache Hive sang Apache Iceberg: Khái niệm, quy trình và code mẫu
+# 🚀 Amazon S3 Tables hỗ trợ chuyển đổi Apache Hive sang Apache Iceberg
 
 Chào mọi người 👋
 
