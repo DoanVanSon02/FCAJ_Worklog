@@ -180,4 +180,6 @@ AWS đề xuất kiểm tra fulfillment rate hằng tuần, xem breakdown của 
 
 [https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-capacity-manager-supportability-and-fulfillment/](https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-capacity-manager-supportability-and-fulfillment/)
 
-#AWS #AmazonEC2 #EC2CapacityManager #AWSStudyGroup #FCJ #CloudComputing
+
+**Link bài đăng:**
+https://www.facebook.com/groups/awsstudygroupfcj/permalink/2327679437997015/#

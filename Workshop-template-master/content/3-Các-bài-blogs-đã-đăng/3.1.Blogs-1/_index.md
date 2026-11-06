@@ -284,3 +284,7 @@ I would love to hear everyone's experiences and feedback 😊
 
 5. **AWS Documentation — Migrating tables to S3 Tables:**  
    https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-migrate.html
+
+
+**Link blog posts:** 
+https://www.facebook.com/groups/awsstudygroupfcj/permalink/2327147558050203/#

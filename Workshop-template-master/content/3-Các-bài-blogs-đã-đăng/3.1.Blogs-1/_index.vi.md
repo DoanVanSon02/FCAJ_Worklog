@@ -284,3 +284,7 @@ Rất mong được nghe thêm kinh nghiệm và góp ý của mọi người �
 
 5. **AWS Documentation — Migrating tables to S3 Tables:**  
    https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-migrate.html
+
+
+**Link bài đăng:**
+https://www.facebook.com/groups/awsstudygroupfcj/permalink/2327147558050203/#
